@@ -20,17 +20,19 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: const Text("Cashy"),
             backgroundColor: Colors.red,
-            actions: <Widget>[
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.mail),
-              ),
-            ],
           ),
-          body: const SafeArea(
-            child: Image(
-              image: AssetImage('assets/images/hutan.jpg'),
-            ),
+          body: SafeArea(
+            child: Container(
+                child: Row(
+              //penggunaan ROW untuk ke kanan COLUMN ke bawah
+              children: <Widget>[
+                const Image(
+                  image: AssetImage('assets/images/data.jpg'),
+                  height: 200,
+                ),
+                const Text("Data is Killing"),
+              ],
+            )),
           )),
     );
   }
