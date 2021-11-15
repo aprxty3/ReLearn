@@ -28,7 +28,9 @@ class MyApp extends StatelessWidget {
             ],
           ),
           body: const SafeArea(
-            child: Text("Hay Kamu"),
+            child: Image(
+              image: AssetImage('assets/images/hutan.jpg'),
+            ),
           )),
     );
   }
