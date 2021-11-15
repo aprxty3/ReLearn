@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           body: SafeArea(
             child: Container(
                 margin: const EdgeInsets.only(
-                  left: 45.0,
+                  left: 60.0,
                   top: 0,
                   right: 0,
                   bottom: 0,
@@ -40,6 +40,7 @@ class MyApp extends StatelessWidget {
                   children: <Widget>[
                     const Image(
                       image: AssetImage('assets/images/data.jpg'),
+                      height: 200,
                     ),
                     const Text("Data is Killing"),
                     const Text("Trust me")
