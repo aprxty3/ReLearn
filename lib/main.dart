@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             actions: <Widget>[
               IconButton(
                 onPressed: () {},
-                icon: Icon(Icons.mail),
+                icon: const Icon(Icons.mail),
               ),
             ],
           ),
