@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const Scaffold(
-        body: Text("Hay Kamu"),
-      ),
+          body: SafeArea(
+        child: Text("Hay Kamu"),
+      )),
     );
   }
 }
