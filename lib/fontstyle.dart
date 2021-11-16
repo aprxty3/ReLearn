@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:re_learn/colors.dart';
 
-TextStyle mainHeader = const TextStyle(
+TextStyle mainHeader = TextStyle(
     fontSize: 26,
-    color: Colors.black38,
+    color: darkblue,
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w700);
 
-TextStyle subHeader = const TextStyle(
+TextStyle subHeader = TextStyle(
   fontSize: 16,
-  color: Colors.blueGrey,
+  color: yap,
   fontFamily: 'Poppins',
   fontWeight: FontWeight.w300,
 );
