@@ -5,3 +5,9 @@ TextStyle mainHeader = const TextStyle(
   color: Colors.black38,
   fontFamily: 'Poppins',
 );
+
+TextStyle subHeader = const TextStyle(
+  fontSize: 16,
+  color: Colors.blueGrey,
+  fontFamily: 'Poppins',
+);

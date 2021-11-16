@@ -47,7 +47,10 @@ class MyApp extends StatelessWidget {
                       "Data is Killing",
                       style: mainHeader,
                     ),
-                    const Text("Trust me")
+                    Text(
+                      "Trust me",
+                      style: subHeader,
+                    )
                   ],
                 )),
           )),
