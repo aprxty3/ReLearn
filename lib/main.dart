@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
           ),
           body: SafeArea(
             child: Container(
+                color: Colors.indigo,
                 margin: const EdgeInsets.only(
                   left: 60.0,
                   top: 0,
@@ -50,6 +51,7 @@ class MyApp extends StatelessWidget {
                     Text(
                       "Trust me",
                       style: subHeader,
+                      textAlign: TextAlign.center,
                     )
                   ],
                 )),
