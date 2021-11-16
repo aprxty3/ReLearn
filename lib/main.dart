@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:re_learn/fontstyle.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +43,10 @@ class MyApp extends StatelessWidget {
                       image: AssetImage('assets/images/data.jpg'),
                       height: 200,
                     ),
-                    const Text("Data is Killing"),
+                    Text(
+                      "Data is Killing",
+                      style: mainHeader,
+                    ),
                     const Text("Trust me")
                   ],
                 )),
