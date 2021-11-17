@@ -9,7 +9,15 @@ class kohi_apps extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
+      home: Scaffold(
+        body: Column(
+          children: <Widget>[
+            Image.asset(
+              'assets/images/1.png',
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
