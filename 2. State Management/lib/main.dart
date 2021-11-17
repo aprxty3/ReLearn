@@ -6,7 +6,6 @@ void main() {
 }
 
 class kohi_apps extends StatelessWidget {
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -46,6 +45,26 @@ class kohi_apps extends StatelessWidget {
                 'We cannot guarantee that any unpackaged products served in our stores are allergen-free',
                 style: subText,
                 textAlign: TextAlign.center,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 80.0),
+              child: Container(
+                width: 260,
+                height: 55,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: Color(0xff023E4A),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(100),
+                    ),
+                  ),
+                  onPressed: () {},
+                  child: Text(
+                    'ORDER NOW',
+                    style: buttonText,
+                  ),
+                ),
               ),
             ),
           ],
