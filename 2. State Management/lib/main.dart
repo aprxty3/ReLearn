@@ -6,6 +6,7 @@ void main() {
 }
 
 class kohi_apps extends StatelessWidget {
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -42,7 +43,7 @@ class kohi_apps extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: 40, right: 55, bottom: 30),
               child: Text(
-                'We cannot guarantee that any unpackaged \nproducts served in our stores are allergen-free',
+                'We cannot guarantee that any unpackaged products served in our stores are allergen-free',
                 style: subText,
                 textAlign: TextAlign.center,
               ),
