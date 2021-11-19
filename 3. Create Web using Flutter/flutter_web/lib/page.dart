@@ -13,6 +13,7 @@ class LandingPage extends StatelessWidget {
             'background.png',
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
+            fit: BoxFit.fill,
           ),
           Padding(
             padding: const EdgeInsets.symmetric(
@@ -137,7 +138,7 @@ class LandingPage extends StatelessWidget {
 
                 // NOTE: CONTENT
                 SizedBox(
-                  height: 76,
+                  height: 50,
                 ),
                 Image.asset(
                   'illustrasi.png',
@@ -146,7 +147,7 @@ class LandingPage extends StatelessWidget {
 
                 // NOTE: FOOTER
                 SizedBox(
-                  height: 84,
+                  height: 70,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
